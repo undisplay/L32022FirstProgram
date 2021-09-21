@@ -1,10 +1,12 @@
 package core;
 
+import java.util.Date;
+
 public class Student extends Human{
     private int studentID;
 
-    public Student(int studentID,String lname, String fname) {
-        super(lname, fname);
+    public Student(int studentID,String lname, String fname, String genger, Date birthDay) {
+        super(lname, fname, genger, birthDay);
         this.studentID = studentID;
     }
 

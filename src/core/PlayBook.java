@@ -2,16 +2,17 @@ package core;
 
 import core.view.Features;
 
+import java.util.Date;
 import java.util.Vector;
 
 public class PlayBook {
 
     public static void main(String[] args) {
 
-        Professor p = new Professor(1,"Muller","Merkel");
+        Professor p = new Professor(1,"Muller","Merkel","Java","man",new Date());
 
-        Student   s = new Student(1,"Meritus","Freedy");
-        Student   q = new Student(2,"Meritus","Midley");
+        Student   s = new Student(1,"Meritus","Freedy","man",new Date());
+        Student   q = new Student(2,"Meritus","Midley","man",new Date());
 
         Vector<String> books = new Vector<String>();
         books.add("introduction to java");
